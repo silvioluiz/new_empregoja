@@ -14,7 +14,6 @@ feature 'Visitor view jobs on home page' do
     expect(page).to have_content('Campus Code')
     expect(page).to have_content('São Paulo')
   end
-
   scenario 'and view a list of jobs' do
     job = Job.create(title: 'Vaga de Dev',
                category: 'Desenvolvedor',
