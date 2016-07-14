@@ -45,6 +45,13 @@
         1,
         null
       ],
+      "/home/silvio/dev/workspaces/campuscode/new_empregoja/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/home/silvio/dev/workspaces/campuscode/new_empregoja/app/channels/application_cable/channel.rb": [
         0,
         0,
@@ -64,6 +71,6 @@
         0
       ]
     },
-    "timestamp": 1468519404
+    "timestamp": 1468520268
   }
 }
