@@ -2,7 +2,7 @@
 	<% @jobs.each do |job| %>
 		<div>
 			<h1> <%= job.title %> </h1>
-			<%= job.company %>	
+			<%= job.company.name %>	
 			<%= job.location %>			
 			<%= link_to job.title, job %>
 		</div>

@@ -13,12 +13,16 @@
 		<%=f.text_field :category %>
 	</div>	
 	<div>
-		<%=f.label :company,  'Empresa' %>
-		<%=f.text_field :company %>
+		<%=f.label :company_id,  'Empresa' %>
+		<%=f.collection_select(:company_id, @companies, :id, :name) %>
 	</div>	
 	<div>
 		<%=f.label :description,  'Descrição' %>
 		<%=f.text_field :description %>
+	</div>
+	<div>
+		<%=f.label :featured,  'Destaque' %>
+		<%=f.check_box :featured %>
 	</div>
 	<%=f.submit 'Criar Vaga'%>
 <% end %>
