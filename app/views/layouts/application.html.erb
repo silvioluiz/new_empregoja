@@ -10,8 +10,10 @@
 
   <body>
   	<h1> Emprego Já </h1>
+
     <%= flash[:notice] %>
-    <%= flash[:error] %>
+    <%= flash.now[:error] %>
     <%= yield %>
+
   </body>
 </html>

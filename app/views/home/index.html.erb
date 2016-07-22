@@ -15,6 +15,12 @@
 		<div>
 			<h1><%= link_to(company.name, company) %></h1>
 		</div>
+	<% end %>
+
+	<% @categories.each do |category| %>
+		<div>
+			<h1><%= link_to(category.name, category) %></h1>
+		</div>
 	<% end %>	
 
 </section>

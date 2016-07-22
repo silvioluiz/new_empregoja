@@ -37,6 +37,7 @@ group :development, :test do
   gem 'simplecov', require: false
   gem 'pry-rails'
   gem 'pry-byebug'
+  gem 'awesome_print'
 end
 
 group :development do
