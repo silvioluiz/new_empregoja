@@ -3,8 +3,17 @@
 		<div>
 			<h1> <%= job.title %> </h1>
 			<%= job.company.name %>	
-			<%= job.location %>			
+			<%= job.location %>
+			<% if job.featured? %>
+				<strong>Destaque</strong>
+			<% end %>			
 			<%= link_to job.title, job %>
+		</div>
+	<% end %>
+
+	<% @companies.each do |company| %>
+		<div>
+			<h1><%= link_to(company.name, company) %></h1>
 		</div>
 	<% end %>	
 

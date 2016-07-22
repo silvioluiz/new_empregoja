@@ -2,12 +2,10 @@ require 'rails_helper'
 
 feature 'Visitor visits job details' do
   scenario 'successfully' do
-
     company = Company.create(name: 'Campus Code',
                              location: 'São Paulo',
                              mail: 'contato@campus.com.br',
                              phone: '2369-3476')
-
 
     job = Job.create(title: 'Vaga de Dev',
                      category: 'Desenvolvedor',
@@ -27,12 +25,10 @@ feature 'Visitor visits job details' do
   end
 
   scenario 'and return to home' do
-
     company = Company.create(name: 'Campus Code',
                              location: 'São Paulo',
                              mail: 'contato@campus.com.br',
                              phone: '2369-3476')
-
 
     job = Job.create(title: 'Vaga de Dev',
                      category: 'Desenvolvedor',

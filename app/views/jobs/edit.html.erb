@@ -1,4 +1,4 @@
-<h1> Cadastrar Vaga </h1>
+<h2> Editar Vaga </h2>
 <section>
 <%= form_for @job do |f| %>
 	<div>
@@ -25,6 +25,7 @@
 		<%=f.label :featured,  'Destaque' %>
 		<%=f.check_box :featured %>
 	</div>
-	<%=f.submit 'Criar Vaga'%>
+	<%=f.submit 'Atualizar Vaga'%>
 <% end %>
 </section>
+
